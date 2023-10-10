@@ -1815,8 +1815,9 @@ footer{
     justify-content: space-between;
     flex-wrap: wrap;
     position: relative;
+    padding-bottom: 150px;
     &:after{
-      position: relative;
+      position: absolute;
       top: 0;
       bottom: 0;
       left: 50%;
@@ -1828,7 +1829,7 @@ footer{
       width: 45%;
     }
     .right{
-      width: 45%;
+      width: 43.5%;
     }
     p{
       color: #5C5C5C;
@@ -1848,18 +1849,63 @@ footer{
       text-transform: capitalize;
       margin-bottom: 25px;
     }
+    .h6{
+      color: #5C5C5C;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 160%;
+      text-transform: capitalize;
+      margin: 0 0 15px;
+    }
+    .h5{
+      color: #5C5C5C;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 160%;
+      text-transform: capitalize;
+      margin-bottom: 12px;
+    }
+    p.price{
+      position: relative;
+      padding-right: 100px;
+      span{
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-weight: 500;
+
+      }
+    }
+    p.price + p.price{
+      margin-top: -14px;
+    }
     p + .h4{
       margin-top: 55px;
+    }
+    .h4 + .h6{
+      margin-top: 30px;
+    }
+
+    .h4 + .h5{
+      margin-top: 30px;
     }
 
     .item-bg-white{
       background: #fff;
-      padding: 50px 50px;
+      padding: 40px 40px;
       margin-bottom: 50px;
     }
     .item-border{
-      padding: 50px 50px;
+      padding: 40px 40px;
       border: 1px solid #5C5C5C;
+      .list-point{
+        padding: 0;
+        li{
+          margin-bottom: 4px;
+        }
+      }
     }
   }
 }
