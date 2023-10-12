@@ -1959,6 +1959,9 @@ footer{
   .content-width{
     padding-top: 222px;
   }
+  .bg img{
+    object-position: right;
+  }
 }
 
 .blog{
@@ -2423,3 +2426,295 @@ footer{
   }
 }
 /*-----------------------END-PAGE-POST---------------------------*/
+/*------------------------PAGE-JOIN-TEAM---------------------------*/
+.full-img-text{
+  height: 808px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    padding: 50px;
+    text-transform: inherit;
+  }
+  .bg{
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+
+.services .full-form-white{
+  border-top: 3px solid #444;
+  padding: 100px 100px;
+  background: #FFF;
+  margin-bottom: 150px;
+}
+.form-white{
+  .input-wrap input{
+    border: 1px solid #C4C8CB;
+    background: transparent!important;
+    &:focus{
+      border: 1px solid #23325F;
+    }
+  }
+  .input-wrap{
+    input::-webkit-input-placeholder {
+      color: #444;
+    }
+    input::-moz-placeholder {
+      color: #444;
+    }
+    input:-ms-input-placeholder {
+      color: #444;
+    }
+    input:-moz-placeholder {
+      color: #444;
+    }
+    input:focus::-webkit-input-placeholder {
+      color: #444;
+    }
+    input:focus::-moz-placeholder {
+      color: #444;
+    }
+    input:focus:-ms-input-placeholder {
+      color: #444;
+    }
+    input:focus:-moz-placeholder {
+      color: #444;
+    }
+  }
+  textarea{
+    border: 1px solid #C4C8CB;
+    background: transparent!important;
+    &:focus{
+      border: 1px solid #23325F;
+    }
+  }
+  textarea::-webkit-input-placeholder {
+    color: #444;
+  }
+  textarea::-moz-placeholder {
+    color: #444;
+  }
+  textarea:-ms-input-placeholder {
+    color: #444;
+  }
+  textarea:-moz-placeholder {
+    color: #444;
+  }
+  textarea:focus::-webkit-input-placeholder {
+    color: #444;
+  }
+  textarea:focus::-moz-placeholder {
+    color: #444;
+  }
+  textarea:focus:-ms-input-placeholder {
+    color: #444;
+  }
+  textarea:focus:-moz-placeholder {
+    color: #444;
+  }
+  .input-wrap-submit{
+    margin-top: 40px;
+  }
+}
+
+.default-form{
+  .input-wrap-file{
+    position: relative;
+    input{
+      width: 100%;
+      height: 80px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      cursor: pointer;
+      z-index: 10;
+    }
+    label{
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: #23325F;
+      cursor: pointer;
+      height: 80px;
+      line-height: 80px;
+      text-align: center;
+      width: 160px;
+      color: #fff;
+    }
+    p{
+      width: 100%;
+      height: 80px;
+      padding: 0 30px;
+      line-height: 78px;
+      border: 1px solid #C4C8CB;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      text-transform: capitalize;
+      background: transparent;
+      outline: none !important;
+      transition: all .4s ease;
+      color: #444;
+    }
+  }
+  .input-wrap-full + .input-wrap-full{
+    margin-top: 30px;
+  }
+}
+/*-----------------------END-PAGE-JOIN-TEAM---------------------------*/
+/*------------------------PAGE-FEES---------------------------*/
+.fees-banner{
+  .content-width {
+    padding-top: 219px;
+  }
+}
+
+.about{
+  .time-block{
+    border-top: 1px solid #C3C3C3;
+    padding-top: 60px;
+    margin-top: 13px;
+    .flex{
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      display: flex;
+    }
+    .time-item-1{
+      width: calc(60% - 300px);
+      p{
+        color: #444;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%;
+        text-transform: capitalize;
+      }
+    }
+    .time-item-2{
+      width: 25%;
+      p{
+        color: #444;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 32px */
+        text-transform: capitalize;
+      }
+    }
+    .time-item-3{
+      width: 285px;
+      a{
+        width: 100%;
+        padding: 0 10px;
+      }
+    }
+  }
+}
+
+.services{
+  .content-2-item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 150px;
+    &:after{
+      position: absolute;
+      top: 0;
+      left: 50%;
+      bottom: 0;
+      content: '';
+      width: 1px;
+      background: #C3C3C3;
+    }
+    .item2{
+      width: 43.5%;
+      ul{
+        padding-top: 0;
+      }
+      p{
+        color: #5C5C5C;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+      }
+      p:last-child{
+        margin-bottom: 0;
+      }
+    }
+    h4{
+      color: #444;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 110%; /* 35.2px */
+      text-transform: capitalize;
+      margin-bottom: 29px;
+    }
+    p + h4{
+      margin-top: 70px;
+    }
+  }
+}
+/*-----------------------END-PAGE-FEES---------------------------*/
+/*------------------------PAGE-CONTACT---------------------------*/
+.contact-banner{
+  .content-width {
+    padding-top: 290px;
+  }
+}
+
+.services.bg-white  .default-form-wrap .form-left ul li h6{
+  color: #23325F;
+}
+.services.bg-white  .default-form-wrap .form-left ul li p a{
+  color: #5C5C5C;
+  &:hover{
+    color: #23325F;
+  }
+}
+.services.bg-white  .default-form-wrap .form-left ul{
+  border-bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.form-white .nice-select{
+  border: 1px solid #C4C8CB;
+  background: transparent !important;
+  color: #444
+}
+.form-white .nice-select.is-open{
+  border: 1px solid #23325F;
+}
+.form-white  .nice-select .list {
+  background: #E5EBEF;
+  border: 1px solid #C4C8CB;
+  box-shadow: none;
+}
+.form-white .nice-select:after {
+  border-bottom: 2px solid #444;
+  border-right: 2px solid #444;
+}
+.bb-1{
+  border-bottom: 1px solid #C3C3C3;
+}
+/*-----------------------END-PAGE-CONTACT---------------------------*/

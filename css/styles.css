@@ -1795,6 +1795,9 @@ footer {
   text-transform: capitalize; }
 .blog-banner .content-width {
   padding-top: 222px; }
+.blog-banner .bg img {
+  -o-object-position: right;
+     object-position: right; }
 
 .blog {
   padding: 150px 0 150px; }
@@ -2222,4 +2225,256 @@ footer {
         min-width: 150px; }
 
 /*-----------------------END-PAGE-POST---------------------------*/
+/*------------------------PAGE-JOIN-TEAM---------------------------*/
+.full-img-text {
+  height: 808px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative; }
+  .full-img-text h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    padding: 50px;
+    text-transform: inherit; }
+  .full-img-text .bg img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.services .full-form-white {
+  border-top: 3px solid #444;
+  padding: 100px 100px;
+  background: #FFF;
+  margin-bottom: 150px; }
+
+.form-white .input-wrap input {
+  border: 1px solid #C4C8CB;
+  background: transparent !important; }
+  .form-white .input-wrap input:focus {
+    border: 1px solid #23325F; }
+.form-white .input-wrap input::-webkit-input-placeholder {
+  color: #444; }
+.form-white .input-wrap input::-moz-placeholder {
+  color: #444; }
+.form-white .input-wrap input:-ms-input-placeholder {
+  color: #444; }
+.form-white .input-wrap input:-moz-placeholder {
+  color: #444; }
+.form-white .input-wrap input:focus::-webkit-input-placeholder {
+  color: #444; }
+.form-white .input-wrap input:focus::-moz-placeholder {
+  color: #444; }
+.form-white .input-wrap input:focus:-ms-input-placeholder {
+  color: #444; }
+.form-white .input-wrap input:focus:-moz-placeholder {
+  color: #444; }
+.form-white textarea {
+  border: 1px solid #C4C8CB;
+  background: transparent !important; }
+  .form-white textarea:focus {
+    border: 1px solid #23325F; }
+.form-white textarea::-webkit-input-placeholder {
+  color: #444; }
+.form-white textarea::-moz-placeholder {
+  color: #444; }
+.form-white textarea:-ms-input-placeholder {
+  color: #444; }
+.form-white textarea:-moz-placeholder {
+  color: #444; }
+.form-white textarea:focus::-webkit-input-placeholder {
+  color: #444; }
+.form-white textarea:focus::-moz-placeholder {
+  color: #444; }
+.form-white textarea:focus:-ms-input-placeholder {
+  color: #444; }
+.form-white textarea:focus:-moz-placeholder {
+  color: #444; }
+.form-white .input-wrap-submit {
+  margin-top: 40px; }
+
+.default-form .input-wrap-file {
+  position: relative; }
+  .default-form .input-wrap-file input {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 10; }
+  .default-form .input-wrap-file label {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #23325F;
+    cursor: pointer;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    width: 160px;
+    color: #fff; }
+  .default-form .input-wrap-file p {
+    width: 100%;
+    height: 80px;
+    padding: 0 30px;
+    line-height: 78px;
+    border: 1px solid #C4C8CB;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    background: transparent;
+    outline: none !important;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    color: #444; }
+.default-form .input-wrap-full + .input-wrap-full {
+  margin-top: 30px; }
+
+/*-----------------------END-PAGE-JOIN-TEAM---------------------------*/
+/*------------------------PAGE-FEES---------------------------*/
+.fees-banner .content-width {
+  padding-top: 219px; }
+
+.about .time-block {
+  border-top: 1px solid #C3C3C3;
+  padding-top: 60px;
+  margin-top: 13px; }
+  .about .time-block .flex {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .about .time-block .time-item-1 {
+    width: calc(60% - 300px); }
+    .about .time-block .time-item-1 p {
+      color: #444;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 160%;
+      text-transform: capitalize; }
+  .about .time-block .time-item-2 {
+    width: 25%; }
+    .about .time-block .time-item-2 p {
+      color: #444;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+      /* 32px */
+      text-transform: capitalize; }
+  .about .time-block .time-item-3 {
+    width: 285px; }
+    .about .time-block .time-item-3 a {
+      width: 100%;
+      padding: 0 10px; }
+
+.services .content-2-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 150px; }
+  .services .content-2-item:after {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    content: '';
+    width: 1px;
+    background: #C3C3C3; }
+  .services .content-2-item .item2 {
+    width: 43.5%; }
+    .services .content-2-item .item2 ul {
+      padding-top: 0; }
+    .services .content-2-item .item2 p {
+      color: #5C5C5C;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+      text-transform: capitalize;
+      margin-bottom: 20px; }
+    .services .content-2-item .item2 p:last-child {
+      margin-bottom: 0; }
+  .services .content-2-item h4 {
+    color: #444;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    /* 35.2px */
+    text-transform: capitalize;
+    margin-bottom: 29px; }
+  .services .content-2-item p + h4 {
+    margin-top: 70px; }
+
+/*-----------------------END-PAGE-FEES---------------------------*/
+/*------------------------PAGE-CONTACT---------------------------*/
+.contact-banner .content-width {
+  padding-top: 290px; }
+
+.services.bg-white .default-form-wrap .form-left ul li h6 {
+  color: #23325F; }
+
+.services.bg-white .default-form-wrap .form-left ul li p a {
+  color: #5C5C5C; }
+  .services.bg-white .default-form-wrap .form-left ul li p a:hover {
+    color: #23325F; }
+
+.services.bg-white .default-form-wrap .form-left ul {
+  border-bottom: 0;
+  margin: 0;
+  padding: 0; }
+
+.form-white .nice-select {
+  border: 1px solid #C4C8CB;
+  background: transparent !important;
+  color: #444; }
+
+.form-white .nice-select.is-open {
+  border: 1px solid #23325F; }
+
+.form-white .nice-select .list {
+  background: #E5EBEF;
+  border: 1px solid #C4C8CB;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
+.form-white .nice-select:after {
+  border-bottom: 2px solid #444;
+  border-right: 2px solid #444; }
+
+.bb-1 {
+  border-bottom: 1px solid #C3C3C3; }
+
+/*-----------------------END-PAGE-CONTACT---------------------------*/
+
 /*# sourceMappingURL=styles.css.map */

@@ -159,6 +159,22 @@
   .default-text .bottom-info .h3{
     font-size: 30px;
   }
+  .full-img-text h2{
+    font-size: 80px;
+  }
+  .full-img-text{
+    height: fit-content;
+    min-height: 700px;
+  }
+  .about .time-block .time-item-2{
+    width: 35%;
+  }
+  .services .content-2-item h4{
+    font-size: 28px;
+  }
+  .services .content-2-item p + h4 {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width:1280px) {
@@ -442,6 +458,12 @@
   .prev-next-block .item .title a {
     font-size: 30px;
   }
+  .full-img-text h2{
+    font-size: 60px;
+  }
+  .services .full-form-white{
+    padding: 50px;
+  }
 }
 
 @media (max-width:991px) {
@@ -579,6 +601,16 @@
   .prev-next-block .item .title a {
     font-size: 26px;
   }
+  .about .time-block .time-item-1{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .about .time-block .time-item-2 {
+    width:calc(100% - 300px);
+  }
+  .services .content-2-item h4 {
+    font-size: 24px;
+  }
 }
 
 @media (max-width:767px) {
@@ -661,6 +693,18 @@
   }
   .default-text .bottom-info .h3 {
     font-size: 24px;
+  }
+  .full-img-text{
+    min-height: 600px;
+  }
+  .services .content-2-item .item2{
+    width: 100%;
+  }
+  .services .content-2-item .item2 + .item2{
+    margin-top: 30px;
+  }
+  .services .content-2-item:after{
+    display: none;
   }
 }
 
@@ -861,5 +905,41 @@
   }
   .services .team-slider .swiper-slide a figure {
     height: 110vw;
+  }
+  .full-img-text h2 {
+    font-size: 40px;
+  }
+  .services .full-form-white{
+    padding: 25px 20px;
+    margin-bottom: 80px;
+  }
+  .default-form .input-wrap-full + .input-wrap-full {
+    margin-top: 10px;
+  }
+  .default-form .input-wrap-file input{
+    height: 62px;
+  }
+  .default-form .input-wrap-file label {
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    width: 100px;
+    font-size: 14px;
+  }
+  .default-form .input-wrap-file p{
+    padding: 0 15px;
+    height: 62px;
+    font-size: 16px;
+    line-height: 60px;
+  }
+  .about .time-block .time-item-2{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .services .content-2-item{
+    margin-bottom: 80px;
+  }
+  .default-form .nice-select:after{
+    right: 20px;
   }
 }

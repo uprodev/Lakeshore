@@ -85,4 +85,11 @@ jQuery(document).ready(function ($) {
   //select
   $('.select-block select').niceSelect();
 
+  //input file
+  $('input:file').change(function(){
+    $this = $(this);
+    $name = $this.val().replace('C:\\fakepath\\', '');
+    $('.file-text').text($name);
+  });
+
 });
