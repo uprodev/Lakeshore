@@ -2475,6 +2475,157 @@ footer {
 .bb-1 {
   border-bottom: 1px solid #C3C3C3; }
 
+.services .map-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 150px; }
+  .services .map-block .map-left {
+    width: 47%; }
+    .services .map-block .map-left ol {
+      padding: 0;
+      margin: 0;
+      list-style: none; }
+      .services .map-block .map-left ol li {
+        position: relative;
+        counter-increment: li;
+        margin-bottom: 70px; }
+        .services .map-block .map-left ol li h6:before {
+          content: counter(li) ".";
+          display: inline-block;
+          margin-right: 10px;
+          color: #444;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 110%;
+          /* 35.2px */
+          text-transform: capitalize; }
+        .services .map-block .map-left ol li h6 {
+          color: #444;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 110%;
+          /* 35.2px */
+          text-transform: capitalize;
+          margin-bottom: 25px; }
+        .services .map-block .map-left ol li p a {
+          color: #5C5C5C;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 160%;
+          /* 38.4px */
+          -webkit-text-decoration-line: underline;
+                  text-decoration-line: underline;
+          text-transform: capitalize; }
+          .services .map-block .map-left ol li p a:hover {
+            color: #23325F; }
+      .services .map-block .map-left ol li:last-child {
+        margin-bottom: 20px; }
+  .services .map-block .map-img {
+    width: 47%; }
+    .services .map-block .map-img img {
+      width: 100%;
+      vertical-align: top; }
+
 /*-----------------------END-PAGE-CONTACT---------------------------*/
+/*------------------------PAGE---------------------------*/
+.page-banner h1 {
+  text-align: left;
+  width: 1000px; }
+.page-banner p {
+  text-align: left;
+  margin: 0 0 65px; }
+.page-banner .content-width {
+  padding-top: 205px; }
+.page-banner .btn-wrap {
+  text-align: left; }
+
+.services .content-ol-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 150px; }
+  .services .content-ol-form .ol-item {
+    width: 48%; }
+    .services .content-ol-form .ol-item ol {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .services .content-ol-form .ol-item ol li {
+        position: relative;
+        counter-increment: li;
+        padding: 37px 0 42px 45px;
+        border-top: 1px solid #C3C3C3; }
+        .services .content-ol-form .ol-item ol li:before {
+          position: absolute;
+          top: 41px;
+          left: 2px;
+          content: "0" counter(li);
+          color: #3887F4;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 110%;
+          /* 26.4px */
+          text-transform: capitalize; }
+        .services .content-ol-form .ol-item ol li h6 {
+          color: #444;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 110%;
+          /* 35.2px */
+          text-transform: capitalize;
+          margin-bottom: 15px; }
+        .services .content-ol-form .ol-item ol li p {
+          color: #5C5C5C;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 160%;
+          /* 32px */
+          text-transform: capitalize; }
+  .services .content-ol-form .form-item {
+    width: 47%;
+    background: #293866;
+    padding: 70px; }
+    .services .content-ol-form .form-item .default-form .input-wrap {
+      width: 100%; }
+    .services .content-ol-form .form-item .default-form .input-wrap-submit {
+      width: 100%; }
+    .services .content-ol-form .form-item .btn-default {
+      width: 100%;
+      background: #3887F4;
+      border-color: #3887F4;
+      color: #fff; }
+      .services .content-ol-form .form-item .btn-default:hover {
+        background: #fff;
+        color: #444; }
+
+.services.bg-grey .item-small {
+  border-top: 1px solid #C3C3C3;
+  border-right: 1px solid #C3C3C3; }
+  .services.bg-grey .item-small a {
+    color: #444; }
+    .services.bg-grey .item-small a:hover {
+      color: #fff; }
+
+.form-white textarea, .form-white input {
+  color: #000 !important; }
+
+/*-----------------------EMD-PAGE---------------------------*/
 
 /*# sourceMappingURL=styles.css.map */

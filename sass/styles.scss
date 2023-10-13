@@ -2717,4 +2717,179 @@ footer{
 .bb-1{
   border-bottom: 1px solid #C3C3C3;
 }
+
+.services{
+  .map-block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+    .map-left{
+      width: 47%;
+      ol{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li{
+          position: relative;
+          counter-increment: li;
+          margin-bottom: 70px;
+          h6:before{
+            content: counter(li) ".";
+            display: inline-block;
+            margin-right: 10px;
+            color: #444;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 110%; /* 35.2px */
+            text-transform: capitalize;
+          }
+          h6{
+            color: #444;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 110%; /* 35.2px */
+            text-transform: capitalize;
+            margin-bottom: 25px;
+          }
+          p{
+            a{
+              color: #5C5C5C;
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 160%; /* 38.4px */
+              text-decoration-line: underline;
+              text-transform: capitalize;
+              &:hover{
+                color: #23325F;
+              }
+            }
+          }
+        }
+        li:last-child{
+          margin-bottom: 20px;
+        }
+      }
+    }
+    .map-img{
+      width: 47%;
+      img{
+        width: 100%;
+        vertical-align: top;
+      }
+    }
+  }
+}
 /*-----------------------END-PAGE-CONTACT---------------------------*/
+/*------------------------PAGE---------------------------*/
+.page-banner{
+  h1{
+    text-align: left;
+    width: 1000px;
+  }
+  p{
+    text-align: left;
+    margin: 0 0 65px;
+  }
+ .content-width {
+    padding-top: 205px;
+  }
+  .btn-wrap{
+    text-align: left;
+  }
+}
+
+.services{
+  .content-ol-form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+    .ol-item{
+      width: 48%;
+      ol{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li{
+          position: relative;
+          counter-increment: li;
+          padding: 37px 0 42px 45px;
+          border-top: 1px solid #C3C3C3;
+          &:before{
+            position: absolute;
+            top: 41px;
+            left: 2px;
+            content: "0"counter(li) ;
+            color: #3887F4;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 110%; /* 26.4px */
+            text-transform: capitalize;
+          }
+          h6{
+            color: #444;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 110%; /* 35.2px */
+            text-transform: capitalize;
+            margin-bottom: 15px;
+          }
+          p{
+            color: #5C5C5C;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 32px */
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+    .form-item{
+      width: 47%;
+      background: #293866;
+      padding: 70px;
+      .default-form .input-wrap{
+        width: 100%;
+      }
+      .default-form .input-wrap-submit{
+        width: 100%;
+      }
+      .btn-default{
+        width: 100%;
+        background: #3887F4;
+        border-color:#3887F4;
+        color: #fff;
+        &:hover{
+          background: #fff;
+          color: #444;
+        }
+      }
+    }
+  }
+}
+
+.services.bg-grey{
+  .item-small {
+
+    border-top: 1px solid #C3C3C3;
+    border-right: 1px solid #C3C3C3;
+    a{
+      color: #444;
+      &:hover{
+        color: #fff;
+      }
+    }
+  }
+}
+
+.form-white textarea, .form-white input{
+  color: #000!important;
+}
+/*-----------------------EMD-PAGE---------------------------*/
